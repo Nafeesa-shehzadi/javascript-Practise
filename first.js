@@ -130,3 +130,8 @@ let findLargest = array.reduce((res, cur) => {
   return res > cur ? res : cur;
 });
 console.log(findLargest); //printing the Larrgest number of Array
+export function ispalindrome(str) {
+  const clearStr = str.toLowerCase().replace(/[^a-zA-Z0-9]/gi, "");
+  const reversedStr = clearStr.split("").reverse().join("");
+  return clearStr === reversedStr;
+}
