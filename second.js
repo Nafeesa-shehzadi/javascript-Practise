@@ -190,5 +190,5 @@ btn.onclick = () => {
   btn.innerHTML = "Button clicked"; //change button text when clicked
 };
 //calling the other file function
-const result = ispalindrome("a man");
+const result = ispalindrome("alias");
 console.log("ispalindrome:", result);
