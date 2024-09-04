@@ -1,4 +1,5 @@
-import { ispalindrome } from "./first.js";
+import { ispalindrome } from "./first.js"; //import file
+//Quiz exercise
 const quizQuestions = [
   {
     question: "What is the capital of Pakistan?",
